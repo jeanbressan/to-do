@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #070707;
+    /* background-image: url('Imagem/imagem.jpg'); */
+    background-size: 100%;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #fcf7f7;
+}
+
+#taskInput {
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+}
+
+#taskList {
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 25%;
+    align-items: center;
+}
+
+button {
+    padding: 15px 15px;
+    background-color: #750af0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #410450;
+}
+
+ul {
+    padding: 0;
+    list-style-type: circle;
+    margin-left: 20px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+li {
+    margin-bottom: 5px;
+    background-color: #f6f6f7;
+    padding: 5px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    color: rgb(5, 5, 5);
+    align-items: center;
+}
+
+li:hover {
+    background-color: #f7f5f5;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.hide {
+    display: none;
+}
